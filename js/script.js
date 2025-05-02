@@ -1,5 +1,33 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+"use strict";
+
+/**
+
+ */
+
+function guess() {
+
+    // turn user input into variables
+
+    let userGuess = parseInt(document.getElementById('guess').value);
+
+    let randomNumber = Math.floor(Math.random() * 10) + 1;
+
+
+
+    // process
+
+    if (userGuess == randomNumber) {
+
+        document.getElementById('result').innerHTML = 'Right! Good job!';
+
+
+
+    }
+
+    if (userGuess != randomNumber) {
+
+        document.getElementById('result').innerHTML = 'Wrong! The correct number was: ' + randomNumber;
+
+    }
+
+}

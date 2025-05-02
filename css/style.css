@@ -2,3 +2,23 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+body {
+    background-color: #f18686;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+h2 {
+    color: #7a5f12;
+    text-align: center;
+}
+h3 {
+    color: #ff938c;
+    text-align: center;
+}
+h4 {
+    color: #ccc;
+    text-align: center;
+}
